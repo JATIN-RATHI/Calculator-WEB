@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table{
+    border:1px solid black;
+    text-align: center;
+  }
+td{
+    border:1px solid black;
+    text-align: center;
+    height: 70px;
+    width: 90px;
+  }
+  tr{
+      text-align: center;
+  }
+  .btn:hover{
+      color: red;
+      cursor: pointer;
+  }
+.btn{
+    border: none;
+    font-size: 150%;
+}
+.calculator{
+    margin: 0;
+    background: rgba(226, 213, 213, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+#number{
+    height: 80%;
+    width: 97%;
+    border: none;
+    font-size: 350%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
